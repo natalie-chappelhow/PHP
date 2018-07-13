@@ -1,0 +1,29 @@
+html {
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+}
+
+body {
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+  background: #EEE;
+  font: 18px Georgia,Times,"Times New Roman",serif;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px 0 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+h1 {
+  font: 24px Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+/* time span */
+
+.time {
+  color: red;
+}
