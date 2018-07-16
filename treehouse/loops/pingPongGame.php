@@ -1,4 +1,19 @@
 <?php
+	//turning on errors within an individual PHP file
+	//Report simple running errors
+	error_reporting(E_ALL);//all errors
+	//Make sure they are on screen
+	ini_set('display_errors', 1);//1 means true so they are on
+	//HTML formatted errors
+	ini_set('html_errors', 1);
+
+	//$error_levels = array('E_ALL', 'E_NOTICE', 'E_WARNING', 'E_ERROR', 'E_STRICT', 'E_DEPRECATED', 'E_PARSE');
+
+	//foreach ($error_levels as $error) {
+	//	echo $error . "<br />";
+	//}
+	
+
 
 	$player1 = 0;
 	$player2 = 0;
@@ -32,10 +47,4 @@
 
 	//LOSE / NOT WIN
 	//randomly increment on of player scores each round
-
-	
-
-
-
-
 ?>

@@ -1,0 +1,57 @@
+/* general */
+
+html { 
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+}
+
+body {
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+  background: #fefefe;
+  font: 18px Georgia,Times,"Times New Roman",serif;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px 10px 20px 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+h1 {
+  font: 24px Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+/*Form*/
+
+form select, form select option {
+  font: 14px Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 3px 6px;
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+#submit input {
+  font: 14px Arial,"Helvetica Neue",Helvetica,sans-serif;
+  width: 100px;
+  height: 30px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+#submit input:hover {
+  color: white;
+  background: black;
+}
+
+
+/*Time*/
+
+.time{
+  color: red;
+}
