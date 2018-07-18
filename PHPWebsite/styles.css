@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   margin: 20px auto;
   padding: 10px 10px 20px 10px;
   border: 2px solid black;
@@ -54,4 +54,54 @@ form select, form select option {
 
 .time{
   color: red;
+}
+
+/* form */
+
+form select, form select option {
+  font: 14px Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 3px 6px;
+}
+
+form select {
+  width: 300px;
+}
+
+form input[type="text"] {
+  font: 14px Arial,"Helvetica Neue",Helvetica,sans-serif;
+  padding: 3px 6px;
+}
+
+.controls {
+  margin-top: 0;
+}
+
+.controls input {
+  font: 14px Arial,"Helvetica Neue",Helvetica,sans-serif;
+  width: 100px;
+  height: 30px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+
+.controls input:hover {
+  color: white;
+  background: black;
+}
+
+dl {
+  margin: 0 20px 20px;
+  text-align: left;
+}
+
+dl dt {
+  display: inline-block;
+  width: 150px;
+}
+
+dl dd {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
 }
